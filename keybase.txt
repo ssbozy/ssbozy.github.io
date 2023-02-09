@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/ssbozy
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.sandilya.com
+  * I am ssbozy (https://keybase.io/ssbozy) on keybase.
+  * I have a public key ASCRWBusKU8PKcFqH2Go6joAF0aEw2SiIShAYQxz84JT2Ao
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120672beee34114b28607420543a254ff55bf678ab38cb9c6f61418991b61ba08420a",
+      "host": "keybase.io",
+      "kid": "012091581bac294f0f29c16a1f61a8ea3a00174684c364a2212840610c73f38253d80a",
+      "uid": "e6d105827c319fe7d760eb1ab1dd3519",
+      "username": "ssbozy"
+    },
+    "merkle_root": {
+      "ctime": 1675927287,
+      "hash": "b021b4e48cede316c94224bac6f28484f499c650b4d9843cfbe69486782d89e0524a3ca74598fd64c10524edb1f182913210b75c442ba751b4d7af540b6e3516",
+      "hash_meta": "85182f7026ba9eafd74547584d6e1fe9b28b52ac74d243dd8e28cb6a6ba0c36d",
+      "seqno": 24016928
+    },
+    "service": {
+      "entropy": "TH17WjwYQuwNXloZ09LcD6bY",
+      "hostname": "www.sandilya.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.0.1"
+  },
+  "ctime": 1675927331,
+  "expire_in": 504576000,
+  "prev": "31e4e235f203b7329371302c0a2147f17a211c830816c9af0850e90c5d27ca5b",
+  "seqno": 63,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgkVgbrClPDynBah9hqOo6ABdGhMNkoiEoQGEMc/OCU9gKp3BheWxvYWTESpcCP8QgMeTiNfIDtzKTcTAsCiFH8XohHIMIFsmvCFDpDF0nylvEIBlz0+efKZqm8AYHKuj1mFjC93NyxkLMZvMgiN3XSId/AgHCo3NpZ8RAuEi7PJVsRnOBoTOjbUNjJiB7/XS3xQA7xS4m2wI3BuLZ672iloqWecnyTgn1C4YZdm7nM8cHu7JQCcD6R2iJCahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEILVvPm/EB7JNdmjLBVpqDpY8wJGTgkZND/ppx1bJCWB6o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ssbozy
+
+==================================================================
