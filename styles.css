@@ -1,6 +1,5 @@
 /* Custom font for home page */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
 
 /* Global Styling */
 * {
@@ -10,7 +9,7 @@
 }
 
 body {
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   font-weight: 300;
   color: #333;
