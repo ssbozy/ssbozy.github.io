@@ -1,3 +1,7 @@
+/* Custom font for home page */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 /* Global Styling */
 * {
   margin: 0;
@@ -6,8 +10,9 @@
 }
 
 body {
-  font-family: 'Afacad Flux', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 18px;
+  font-weight: 300;
   color: #333;
   background-color: #f9f9f9;
   line-height: 1.6;
@@ -160,5 +165,3 @@ footer p {
   }
 }
 
-/* Custom Font */
-@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
