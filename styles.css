@@ -1,6 +1,5 @@
 /* Custom font for home page */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
 /* Global Styling */
 * {
   margin: 0;
@@ -9,7 +8,7 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Inconsolata', monospace;
   font-size: 18px;
   font-weight: 300;
   color: #333;
@@ -130,6 +129,10 @@ button {
 
 button:hover {
   background-color: #3498db;
+}
+
+hr {
+  margin-bottom: 20px 0px 20px 0px;
 }
 
 /* Footer Styling */
