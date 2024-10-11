@@ -1,168 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage of Sandilya Bhamidipati</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="canonical" href="https://www.sandilya.com" />
+
+    <meta name="description" content="Personal website of Sandilya Bhamidipati, Engineering Manager at Adobe. Offering fullstack software engineering and applied machine learing solutions. Explore my work, blog, and contact details." />
+    <meta name="keywords" content="Sandilya Bhamidipati, Software Engineer, Adobe, Technicolor, website, Blog" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta property="og:title" content="Sandilya Bhamidipati" />
+    <meta property="og:description" content="Welcome to the personal website of Sandilya Bhamidipati. Discover my work and projects." />
+    <meta property="og:image" content="https://www.sandilya.com/img/photo.png" />
+    <meta property="og:url" content="https://www.sandilya.com" />
+    <meta property="og:type" content="website" />
+    <meta name="robots" content="index, follow" />
+
 </head>
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-    body{
-        margin: 0;
-        padding: 0;
-        font-family: 'Open Sans', sans-serif;
-        background-color: #FFF;
-        align-items: center;
-        justify-content: center;
-    }
-
-    *{
-        box-sizing: border-box;
-    }
-
-    .container{
-        display: flex;
-        width: 100%;
-        height: 100%;
-        padding: 20px 20px;
-    }
-
-    .box{
-        flex: 30%;
-        display: table;
-        align-items: center;
-        text-align: center;
-        font-size: 20px;
-        background-color: #3F6A8A;
-        color: #fff;
-        padding: 30px 30px;
-        border-radius: 10px;
-    }
-
-    .box img{
-        border-radius: 50%;
-        border: 2px solid #fff;
-        height: 250px;
-        width: 250px;
-    }
-
-    .box ul{
-        margin-top: 30px;
-        font-size: 30px;
-        text-align: center;
-    }
-    .box ul li{
-        list-style: none;
-        margin-top: 50px;
-        font-weight: 100;
-    }
-
-    .box ul li i{
-        cursor: pointer;
-        margin: 10px;
-        font-size: 40px;
-    }
-
-    .box ul li i:hover{
-        opacity: 0.6;
-    }
-
-    .box a {
-        color:#f0932b;
-        display: block;
-    }
-
-    .About{
-        margin-left: 20px;
-        flex: 50%;
-        display: table;
-        padding: 30px 30px;
-        font-size: 20px;
-        background-color: #efeeee;
-        border-radius: 10px;
-    }
-
-    .About h1{
-        text-transform: uppercase;
-        letter-spacing: 3px;
-        font-size: 50px;
-        font-weight: 500;
-    }
-
-    .About ul li{
-        list-style: none;
-    }
-
-    .About ul{
-        margin-top: 20px;
-    }
-
-    .About a {
-        color:#f0932b;
-    }
-
-    @media screen and (max-width: 1068px) {
-        .container{
-            display: table;
-        }
-
-        .box{
-            width: 100%;
-        }
-
-        .About{
-            width: 100%;
-            margin: 0;
-            margin-top: 20px;
-        }
-
-        .About h1{
-            text-align: center;
-        }
-    }
-</style>
 <body>
-    <div class="container">
-        <div class="box">
-            <img src="https://www.gravatar.com/avatar/268186232a20e762ec60ce56da748b2a?s=400" alt="">
-            <ul>
-                <li>
-                    <a href="https://blog.sandilya.com/work" target=_blank>Work</a>
-                    <a href="https://blog.sandilya.com/publications" target=_blank>Publications</a>
-                    <a href="https://blog.sandilya.com" target=_blank>Blog</a>
-                    <a href="https://thoughts.sandilya.com" target=_blank>Thoughts</a>
-                </li>
-            </ul>
-        </div>
-        <div class="About">
-            <ul>
-                <h3>Hello, I am Sandilya Bhamidipati.</h3>
-                <embed width='600' height='180' src='https://embed.howtopronounce.com/classic/en/sandilya/31983637'>
-                <p>Friends and family call me Sandy. I have my nest in San Francisco Bay Area. During my day, I work at <a href="https://www.adobe.com/sensei.html">Adobe</a>. What I do the rest of the time is a mystery.</p>
-                <h3>Things I live for </h3>
-                    <ul>
-                        <li>Learning/Reading/Writing about code</li>
-                        <li>Caring for my family</li>
-                        <li>Food and cooking</li>
-                        <li>Minimalism</li>
-                        <li>Making a positive impact in the world</li>
-                    </ul>
-            </ul>
-            <ul>
-                <h3>Contact</h3>
-                <p>
-                    <ul>
-                        <li>
-                            My email is <a href=mailto:hello@sandilya.com>hello@sandilya.com</a>
-                        </li>
-                        <li> Here is my <a href="https://www.linkedin.com/in/sandilya-bhamidipati/" target=_blank>Linkedin</a> and <a href="https://twitter.com/iamsandilya" target=_blank>Twitter</a>
-                        </li>
-                    </ul>
-                </p>
-            </ul>
-        </div>
-    </div>
+
+  <!-- Header Section -->
+  <header>
+    <h1><a href="https://www.sandilya.com">Sandilya Bhamidipati </a></h1>
+    <p>Engineer. Husband. Parent</p>
+  </header>
+
+  <!-- Navigation Section -->
+  <nav>
+    <ul>
+      <li><a href="https://www.sandilya.com/work">Work</a></li>
+      <li><a href="https://www.sandilya.com/publications">Publications</a></li>
+      <li><a href="https://blog.sandilya.com">Blog</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content Section -->
+  <div class="container">
+    <main>
+      <section id="about">
+        <h2>About</h2>
+        <p>Friends and family call me <b>Sandy</b>. During my day, I work at Adobe. What I do the rest of the time is a mystery. I live in the almost beautiful side of the SF Bay Area with my young family. </p>
+
+        <p>I am a hacker by nature and that means finding roundabout solutions to any problem let it be in programming, software/hardware development or life in general. I believe we can always find a simple solution which works. As humans, we tend to be attracted to complexity. </p>
+
+        <p>Someone once told me to fall in love with problems and not solutions. This made me keep refining every solution until  I think it is simple to explain. I re-visit every problem to check if it still a problem. </p>
+        <h3> Things I live for </h3>
+        <span> &#8594;<a href="https://dev.to/">Learning/reading/writing about code </a> </span>
+        <span> &#8594;<a href="https://howtosurviveasaprogrammer.blogspot.com/2018/12/being-father-and-programmer-in-same-time.html">Caring for my family </a></span>
+        <span> &#8594;<a href="https://minimalistbaker.com/">Food and cooking </a></span>
+        <span> &#8594;<a href="https://zenhabits.net/archives/">Minimalism </a></span>
+        <span> &#8594;<a href="https://brilliantio.com/ways-people-can-change-the-world/">Making a positive impact in the world </a></span>
+      </section>
+
+      <section id="pronounce"> 
+        <h2> How to pronounce my name </h2>
+        <p><embed width='600' height='180' src='https://embed.howtopronounce.com/classic/en/sandilya/31983637'></p>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>
+            I'd love to hear from you! Whether you have a project in mind or just want to say hi, feel free to reach out:
+            <span> &#8594; My email is <a href=mailto:hello@sandilya.com>hello@sandilya.com</a>.</span> 
+            <span> &#8594; Add me on <a href="https://www.linkedin.com/in/sandilya-bhamidipati/">Linkedin</a>.</span>
+        </p> 
+
+      </section>
+    </main>
+  </div>
+
+  
+  <!-- Footer Section -->
+  <footer>
+    <p> Made with &#10084; and ChatGPT in California</p>
+    <a title="Web Analytics" href="https://clicky.com/101349896"></a>
+    <script async data-id="101349896" src="//static.getclicky.com/js"></script>
+  </footer>
+
 </body>
 </html>
