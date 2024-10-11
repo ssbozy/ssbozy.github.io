@@ -106,6 +106,7 @@ main a:hover {
 section span {
     display: block;
 }
+
 section {
     margin-bottom: 30px;
 }
@@ -115,8 +116,6 @@ section h4 {
     margin-bottom: 20px;
 }
 
-span a {
-    text-decoration: underline;
 /* Button Styling */
 button {
   background-color: #2980b9;
