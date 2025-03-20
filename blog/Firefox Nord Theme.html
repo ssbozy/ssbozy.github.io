@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Homepage of Sandilya Bhamidipati</title>
+        <link rel="stylesheet" href="css/styles.css" />
+        <link rel="canonical" href="https://www.sandilya.com" />
+
+        <meta
+            name="description"
+            content="Personal website of Sandilya Bhamidipati, Engineering Manager at Adobe. Offering fullstack software engineering and applied machine learing solutions. Explore my work, blog, and contact details."
+        />
+        <meta
+            name="keywords"
+            content="Sandilya Bhamidipati, Software Engineer, Adobe, Technicolor, website, Blog"
+        />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+        <meta property="og:title" content="Sandilya Bhamidipati" />
+        <meta
+            property="og:description"
+            content="Welcome to the personal website of Sandilya Bhamidipati. Discover my work and projects."
+        />
+        <meta
+            property="og:image"
+            content="https://www.sandilya.com/img/photo.png"
+        />
+        <meta property="og:url" content="https://www.sandilya.com" />
+        <meta property="og:type" content="website" />
+        <meta name="robots" content="index, follow" />
+    </head>
+    <body>
+        <!-- Header Section -->
+        <header>
+            <h1>
+                <a href="https://www.sandilya.com">Sandilya Bhamidipati </a>
+            </h1>
+            <p>Engineer. Researcher. Mentor. Family man.</p>
+        </header>
+
+        <!-- Navigation Section -->
+        <nav>
+            <ul>
+                <li><a href="https://www.sandilya.com/work">Work</a></li>
+                <li>
+                    <a href="https://www.sandilya.com/publications"
+                        >Publications</a
+                    >
+                </li>
+                <li><a href="https://www.sandilya.com/blog">Blog</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main Content Section -->
+        <div class="container">
+            <main>
+                <section id="about">
+                    <h2>Firefox Nord theme customization</h2>
+                    <p>I am in love with Nord theme. After successfully
+                    moving my Terminal and Sublime Text 4 on MacOS, I
+                    wanted to change my browser as well. Firefox is so
+                    easy to customize that I decided I will go full Nord
+                    on it. So here is a preview of how it looks. I like
+                    very minimal setups and the color should be
+                    uniform.</p>
+                    <figure>
+                    <img src="_NordTheme.png"
+                    alt="Firefox custom Nord theme" />
+                    <figcaption aria-hidden="true">Firefox custom Nord
+                    theme</figcaption>
+                    </figure>
+                    <p>Here are the steps:</p>
+                    <ol type="1">
+                    <li><p>Install the <em>Arc Dark Theme for
+                    Firefox</em>. That should setup the tabs and menu
+                    bar.</p></li>
+                    <li><p>The tabs and new windows are still light
+                    color, so I went ahead and changed the
+                    userContent.css and userChrome.css. This is how you
+                    do it.</p></li>
+                    <li><p>Procedure</p>
+                    <ul>
+                    <li><p>Type about:config in the URL bar</p></li>
+                    <li><p>Search
+                    toolkit.legacyUserProfileCustomizations.stylesheets
+                    and double-click the field to set it to
+                    true</p></li>
+                    <li><p>Type about:support in the URL bar</p></li>
+                    <li><p>Look for Profile folder field and click on
+                    the open button next to it.</p></li>
+                    <li><p>Create a folder with the name chrome</p></li>
+                    <li><p>Inside this folder, create a file
+                    userChrome.css and paste the following code inside
+                    it :</p></li>
+                    </ul>
+                    <pre><code>    tabbrowser tabpanels { background-color: rgb(46,52,64) !important; }
+    browser { background-color: #2e3440 !important; } </code></pre>
+                    <ul>
+                    <li>Then create another file userContent.css and
+                    paste the followind code in it :</li>
+                    </ul>
+                    <pre><code>    @-moz-document url-prefix(&quot;about:blank&quot;) {
+        html &gt; body:empty {
+            background-color: rgb(46,52,64) !important;
+        }
+    }
+    @-moz-document url(&quot;about:blank&quot;) {
+        html &gt; body:empty {
+            background-color: rgb(46,52,64) !important;
+        }
+    }
+
+    @-moz-document url(&quot;about:newtab&quot;), url(&quot;about:home&quot;) {
+      body {
+        background-color: rgb(46,52,64) !important;
+      }
+    }   </code></pre></li>
+                    <li><p>Finally, set your Homepage and new windows to
+                    about:newtab</p></li>
+                    <li><p>Completely quit and restart firefox</p></li>
+                    <li><p>Enjoy</p></li>
+                    </ol>
+                </section>
+            </main>
+        </div>
+
+        <!-- Footer Section -->
+        <footer>
+            <p>Made with &#10084; and ChatGPT in California</p>
+            <a title="Web Analytics" href="https://clicky.com/101349896"></a>
+            <script
+                async
+                data-id="101349896"
+                src="//static.getclicky.com/js"
+            ></script>
+        </footer>
+    </body>
+</html>

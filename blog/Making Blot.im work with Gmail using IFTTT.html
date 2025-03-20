@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Homepage of Sandilya Bhamidipati</title>
+        <link rel="stylesheet" href="css/styles.css" />
+        <link rel="canonical" href="https://www.sandilya.com" />
+
+        <meta
+            name="description"
+            content="Personal website of Sandilya Bhamidipati, Engineering Manager at Adobe. Offering fullstack software engineering and applied machine learing solutions. Explore my work, blog, and contact details."
+        />
+        <meta
+            name="keywords"
+            content="Sandilya Bhamidipati, Software Engineer, Adobe, Technicolor, website, Blog"
+        />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+        <meta property="og:title" content="Sandilya Bhamidipati" />
+        <meta
+            property="og:description"
+            content="Welcome to the personal website of Sandilya Bhamidipati. Discover my work and projects."
+        />
+        <meta
+            property="og:image"
+            content="https://www.sandilya.com/img/photo.png"
+        />
+        <meta property="og:url" content="https://www.sandilya.com" />
+        <meta property="og:type" content="website" />
+        <meta name="robots" content="index, follow" />
+    </head>
+    <body>
+        <!-- Header Section -->
+        <header>
+            <h1>
+                <a href="https://www.sandilya.com">Sandilya Bhamidipati </a>
+            </h1>
+            <p>Engineer. Researcher. Mentor. Family man.</p>
+        </header>
+
+        <!-- Navigation Section -->
+        <nav>
+            <ul>
+                <li><a href="https://www.sandilya.com/work">Work</a></li>
+                <li>
+                    <a href="https://www.sandilya.com/publications"
+                        >Publications</a
+                    >
+                </li>
+                <li><a href="https://www.sandilya.com/blog">Blog</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main Content Section -->
+        <div class="container">
+            <main>
+                <section id="about">
+                    <h2>Making Blot.im work with Gmail using IFTTT</h2>
+                    <h1
+                    id="making-blot.im-work-with-gmail-using-ifttt">Making
+                    Blot.im work with Gmail using IFTTT</h1>
+                    <p>Here is what I am trying to accomplish. Ability
+                    to post to Blot.im blog by send an email to my
+                    gmail. The title of the blog will be the subject of
+                    the email and the content of the blog will be the
+                    content of my email. Since there is no direct
+                    integration between the two, I am planning to
+                    leverage the power of IFTTT.</p>
+                    <h2 id="step-1-setup-gmail">Step 1: Setup Gmail</h2>
+                    <ul>
+                    <li>I created a label in my gmail called
+                    “myblog”.</li>
+                    <li>In Filters and Blocked Address, I created an new
+                    filter which filters emails in the to section with
+                    “your_email_id_here+blog@gmail.com” and in the next
+                    page add the label “myblog”</li>
+                    <li>I tested it out my sending an email to
+                    “your_email_id_here+blog@gmail.com” and it showed up
+                    with a lable “myblog”</li>
+                    </ul>
+                    <h2 id="step-2-ifttt">Step 2: IFTTT</h2>
+                    <ul>
+                    <li>I have an IFTTT account where I conneted my
+                    Gmail and Dropbox account. I created a recipe which
+                    picks an email with myblog as label and creates a
+                    text file with the subject of email as title and
+                    content of email as content of blog.</li>
+                    </ul>
+                    <h2 id="step-3-test">Step 3: Test</h2>
+                    <p>I sent a test email to my gmail account
+                    “your_email_id_here+blog@gmail.com” with title in
+                    subject and content and email. Within a few minutes
+                    a text file with blog title is created in my Blot
+                    folder and my post is online.</p>
+                    <h2 id="caveats-and-corner-cases">Caveats and corner
+                    cases</h2>
+                    <ul>
+                    <li>This works only with text blogs. Images are not
+                    supported.</li>
+                    </ul>
+                </section>
+            </main>
+        </div>
+
+        <!-- Footer Section -->
+        <footer>
+            <p>Made with &#10084; and ChatGPT in California</p>
+            <a title="Web Analytics" href="https://clicky.com/101349896"></a>
+            <script
+                async
+                data-id="101349896"
+                src="//static.getclicky.com/js"
+            ></script>
+        </footer>
+    </body>
+</html>
