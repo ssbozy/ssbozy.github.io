@@ -1,5 +1,5 @@
 ---
-title: Ping test with Google, Cloudflare and OpenDNS
+title: "Ping test with Google, Cloudflare and OpenDNS"
 date: 2018-04-01
 ---
 

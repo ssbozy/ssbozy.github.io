@@ -1,5 +1,5 @@
 ---
-title: Reactions to technology over time
+title: "Reactions to technology over time"
 date: 2025-02-14
 ---
 

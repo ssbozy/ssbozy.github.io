@@ -1,5 +1,5 @@
 ---
-title: Think Hard
+title: "Think Hard"
 date: 2018-03-01
 ---
 

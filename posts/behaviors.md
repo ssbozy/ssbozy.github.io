@@ -1,5 +1,5 @@
 ---
-title: Human Behavioral Characteristics
+title: "Human Behavioral Characteristics"
 date: 2021-02-09
 ---
 

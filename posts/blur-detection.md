@@ -1,5 +1,5 @@
 ---
-title: How I detect blurry images using OpenCV?
+title: "How I detect blurry images using OpenCV?"
 date: 2018-02-10
 ---
 

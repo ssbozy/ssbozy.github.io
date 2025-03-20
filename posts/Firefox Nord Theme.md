@@ -1,5 +1,5 @@
 ---
-title: Firefox Nord theme customization
+title: "Firefox Nord theme customization"
 date: 2022-11-15
 tags: Customization, Firefox, Nord, themes
 ---

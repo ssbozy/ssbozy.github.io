@@ -1,5 +1,5 @@
 ---
-title: The JWZ test
+title: "The JWZ test"
 date: 2025-01-23
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: How to completely disable camera on Mac OSX
+title: "How to completely disable camera on Mac OSX"
 date: 2018-03-15
 ---
 #How to completely disable camera on Mac OSX?

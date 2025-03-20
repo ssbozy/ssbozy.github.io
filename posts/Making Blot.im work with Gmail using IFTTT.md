@@ -1,5 +1,5 @@
 ---
-title: Making Blot.im work with Gmail using IFTTT
+title: "Making Blot.im work with Gmail using IFTTT"
 date: 2018-03-31
 ---
 

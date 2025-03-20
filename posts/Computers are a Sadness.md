@@ -1,5 +1,5 @@
 ---
-title: Computers are a Sadness, I am the Cure
+title: "Computers are a Sadness, I am the Cure"
 date: 2025-03-14
 ---
 

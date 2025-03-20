@@ -1,5 +1,5 @@
 ---
-title: AWS Lambda and Gateway API with Zappa
+title: "AWS Lambda and Gateway API with Zappa"
 date: 2018-01-14
 ---
 

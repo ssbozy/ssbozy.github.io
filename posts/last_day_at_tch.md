@@ -1,5 +1,5 @@
 ---
-title: Last day at Technicolor
+title: "Last day at Technicolor"
 date: 2018-02-02
 ---
 #Last day at Technicolor

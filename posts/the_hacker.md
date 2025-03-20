@@ -1,5 +1,5 @@
 ---
-title: The Conscience of a Hacker
+title: "The Conscience of a Hacker"
 date: 2019-10-24
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Adding TouchID support to Terminal
+title: "Adding TouchID support to Terminal"
 date: 2018-02-26
 ---
 

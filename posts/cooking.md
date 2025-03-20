@@ -1,5 +1,5 @@
 ---
-title: Cooking is meditation
+title: "Cooking is meditation"
 date: 2019-01-16
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: My new domain and next steps
+title: "My new domain and next steps"
 date: 2018-04-24
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: The 64 Milliseconds Manifesto
+title: "The 64 Milliseconds Manifesto"
 date: 2020-01-13
 ---
 

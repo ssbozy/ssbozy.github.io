@@ -1,5 +1,5 @@
 ---
-title: Pelican Setup
+title: "Pelican Setup"
 date: 2017-09-12
 ---
 

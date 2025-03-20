@@ -1,5 +1,5 @@
 ---
-title: Advice from John Carmack
+title: "Advice from John Carmack"
 date: 2018-03-07
 ---
 
