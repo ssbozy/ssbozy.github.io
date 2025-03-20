@@ -11,8 +11,6 @@ rm -rf index.md
 
 # Create output directory if not exists
 mkdir -p "$FINAL_BLOG"
-mkdir -p "$FINAL_BLOG/css"
-mkdir -p "$FINAL_BLOG/imgs"
 
 # create an empty index.md file
 touch index.md
@@ -26,15 +24,11 @@ done
 
 
 # create index file in reverse chronological order
-python index.py
+python blog-index.py
 
 # Convert index.md to index.html using Pandoc
 pandoc "$INDEX_FILE" -o "$HTML_INDEX" --template=template.html
 echo "Index page generated successfully at $HTML_INDEX"
-
-# copy style and other supporting files to blog folder
-cp -r css/ "$FINAL_BLOG/css/"
-cp -r posts/imgs/ "$FINAL_BLOG/imgs"
 
 # clean up tasks
 rm -rf index.md
