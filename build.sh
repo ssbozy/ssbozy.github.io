@@ -42,4 +42,4 @@ rm -rf index.md
 echo "Blog built successfully in '$FINAL_BLOG' folder."
 echo "Starting webserver at port 8080 for testing:"
 
-cd blog &&  python -m http.server 8080
+python -m http.server 8080
