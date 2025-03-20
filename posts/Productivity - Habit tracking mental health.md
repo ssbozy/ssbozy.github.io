@@ -1,5 +1,5 @@
 ---
-title: "Productivity - Habit tracking/Mental health"
+title: "Productivity - Habit tracking for mental health"
 date: 2022-01-13
 ---
 
